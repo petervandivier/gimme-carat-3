@@ -1,0 +1,12 @@
+---
+driver:
+    name: vagrant
+
+verifier:
+    name: inspec
+
+platforms:
+    - name: ubuntu-16.04
+
+suites:
+    - name: abba
