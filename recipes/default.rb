@@ -11,3 +11,8 @@
         action :install
     end
 end
+
+execute 'groupadd wireshark' do
+end
+execute 'usermod -a -G wireshark $USER' do
+end
